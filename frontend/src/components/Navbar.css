@@ -1,0 +1,21 @@
+.bg-navy {
+  background-color: #142451 !important; /* Bleu marine */
+}
+
+.navbar-brand span {
+  color: #ffffff;
+}
+
+.navbar {
+  border-bottom: 3px solid #264577;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.navbar .rounded-circle {
+  border: 2px solid #264577;
+  background: #fff;
+}

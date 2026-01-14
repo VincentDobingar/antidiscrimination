@@ -1,0 +1,15 @@
+.bg-navy {
+  background-color: #142451 !important;
+}
+
+.footer-text {
+  letter-spacing: 1px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1030;
+}

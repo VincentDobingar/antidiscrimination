@@ -1,0 +1,110 @@
+/* ================================
+   RESET TEXT SHADOW & SHARPEN TEXT
+   ================================ */
+* {
+  text-shadow: none !important;
+}
+
+/* Rendu texte plus net */
+h1, h2, h3, h4, p, li, a, span, div {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  text-shadow: none !important;
+}
+
+/* ================================
+   TITRES
+   ================================ */
+.section-title {
+  color: #142451;
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #142451;
+  padding-bottom: 0.5rem;
+  letter-spacing: 0.03em;
+}
+
+/* Sous-titres */
+.subtitle {
+  color: #142451;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* ================================
+   PARAGRAPHES
+   ================================ */
+.text-block {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #111;
+}
+
+/* ================================
+   CARTES
+   ================================ */
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  height: 100%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Icônes dans les cartes */
+.card-icon {
+  margin-bottom: 1rem;
+  color: #142451;
+}
+
+/* Titres des cartes */
+.card-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #142451;
+  margin-bottom: 0.5rem;
+}
+
+/* Texte dans les cartes */
+.card-text {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* ================================
+   SECTION BACKGROUNDS
+   ================================ */
+.section-light {
+  background-color: #f8fafc;
+  padding: 80px 0;
+}
+
+.section-white {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+/* ================================
+   RESPONSIVE
+   ================================ */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
